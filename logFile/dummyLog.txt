@@ -1,5 +1,0 @@
-{"date":"23/07/2024:helloaskdjasd","message":"this is a new message"}
-{"date":"23/07/2024","message":"this is a new message"}
-{"date":"23/07/2024","message":"this is a new message"}
-{"date":"23/07/2024","message":"this is a new message"}
-{"date":"23/07/2024 - 03:18:00","message":"testing message for the log"}

@@ -9,7 +9,7 @@ app.post("/writeLog", (req,res) => {
     try{
         const obj = {...req.body};
         const dataToAppend = JSON.stringify(obj) + "\n";
-        fs.appendFile("dummyLog.txt", dataToAppend, (err) => {
+        fs.appendFile("./logFile/dummyLog.txt", dataToAppend, (err) => {
             if(err) throw err;
             console.log("data appended", obj);
             return;
